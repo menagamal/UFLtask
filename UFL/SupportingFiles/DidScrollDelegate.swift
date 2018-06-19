@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+
+protocol DidScrollDelegate {
+    
+    func didScroll(scrollview:UIScrollView)
+    
+}
+
+
